@@ -21,9 +21,8 @@ If it is still not there run below command and see in which folder it is located
 ```
 find / -type f -name kubectl 2>/dev/null
 ```
-Copy the output you see from the above command and now make sure to put it inside of 
-```vim ~/.bash_profile
-
+Copy the output you see from the above command and now make sure to put it inside of ```vim ~/.bash_profile```
+````
 export PATH=/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:$PATH
 
 ````
