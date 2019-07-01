@@ -2,6 +2,8 @@
 You can connect to your cluster via command-line or using a dashboard. 
 Open the terminal and copy paste the below commad line access from gcp kubernetes engine console by pressing "connect".
 Configure kubectl command line access by running the following command on your terminal:
+Below command will be different at your gcp dashboard
+For ex:
 ```
 gcloud container clusters get-credentials standard-cluster-1 --zone us-central1-a --project elegant-expanse-90876
 ````
